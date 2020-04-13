@@ -6,7 +6,13 @@ namespace hellocsharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            string myName = "Alex";
+
+            Console.WriteLine("My name is " + myName);
+         
+
+            Console.ReadLine();
         }
     }
 }
